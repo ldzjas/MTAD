@@ -1,0 +1,52 @@
+batch_size: 1024
+benchmark_dir: ./benchmark_results
+data_root: ../data/SWAT/
+dataset: swat
+dataset_id: SWAT
+device: 4
+dim: 19
+dropout: 0
+entities:
+- swat
+eval:
+  best_params:
+    target_direction: max
+    target_metric: f1
+  metrics:
+  - f1
+  - delay
+  point_adjustment:
+  - true
+  - false
+  pot_params:
+    dynamic: false
+    level:
+    - 0.99
+    - 0.98
+    - 0.97
+    - 0.9
+    - 0.8
+    q: 0.01
+  thresholding:
+  - best
+  - pot
+exp_id: lstm_SWAT
+hidden_size: 256
+lr: 0.001
+model_id: lstm
+model_root: ./benchmark_exp_details/SWAT/lstm/lstm_SWAT
+nb_epoch: 10
+normalize: minmax
+nrows: null
+num_layers: 2
+num_workers: 4
+patience: 5
+prediction_dims: []
+prediction_length: 1
+stride: 1
+test_label_postfix: test_label.pkl
+test_postfix: test.pkl
+train_postfix: train.pkl
+uptime: 20251202-214511
+valid_ratio: 0
+window_size: 10

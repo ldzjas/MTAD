@@ -1,0 +1,25 @@
+Base:
+    dataset: "swat"
+    data_root: ../data/SWAT/
+    model_root: "./benchmark_exp_details"
+    benchmark_dir: "./benchmark_results"
+    train_postfix1: "train1.pkl"
+    train_postfix2: "train2.pkl"
+    test_postfix: "test3.pkl"
+    test_label_postfix: "test_label3.pkl"
+    dim: 19
+    nrows: null
+    entities:
+        - swat
+
+
+SWAT:
+    valid_ratio: 0
+    entities: ["swat"]
+
+SWAT_test:
+    nrows: 5000
+    valid_ratio: 0
+    entities: ["swat"]
+
+

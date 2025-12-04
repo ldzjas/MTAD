@@ -1,0 +1,5 @@
+uptime,dataset_id,strategy,exp_id,model_id,length,f1_adjusted,pc_adjusted,rc_adjusted,f1,pc,rc,delay,train_time,test_time,nb_epoch,nb_eval_entity,nb_total_entity
+20251202-214511,SWAT,best_adjusted,lstm_SWAT,lstm,5989,0.0,0.0,0.0,,,,0.0,2.2370777130126953,0.19759082794189453,10,1,1
+20251202-214511,SWAT,pot_adjusted,lstm_SWAT,lstm,5989,0.0,0.0,0.0,,,,0.0,2.2370777130126953,0.19759082794189453,10,1,1
+20251202-214511,SWAT,best,lstm_SWAT,lstm,5989,,,,0.0,0.0,0.0,0.0,2.2370777130126953,0.19759082794189453,10,1,1
+20251202-214511,SWAT,pot,lstm_SWAT,lstm,5989,,,,0.0,0.0,0.0,0.0,2.2370777130126953,0.19759082794189453,10,1,1
